@@ -1,68 +1,60 @@
-# Multi-Tenant E-Commerce SaaS Platform
+# AI-Themed Digital Clock
 
-## Overview
-A Shopify-like SaaS platform built with Java (Spring Boot) that enables multiple businesses (tenants) to host their online stores on a single system. This enterprise-grade solution follows modern best practices and is designed for scalability, security, and extensibility.
+A stylish digital clock application built with Java Swing featuring a futuristic AI-inspired user interface.
 
-## Key Features
+## Features
 
-### For Tenants (Businesses)
-- **Isolated Product Catalog**: Each tenant manages their own products
-- **Role-Based Access Control**: Owner, Admin, Analyst, Viewer roles
-- **Secure Authentication**: JWT-based authentication with Keycloak integration
-- **Catalog Management**: Search, categories, pagination
-- **Order Processing**: Complete order lifecycle management
-- **Payment Integration**: Secure payment processing
+- Real-time digital clock display with hours, minutes, and seconds
+- Current date display with day of week, month, day, and year
+- AM/PM indicator
+- Sleek AI-themed UI with custom colors and glow effects
+- Modern, clean interface with a futuristic feel
 
-### Technical Features
-- **Microservices Architecture**: 
-  - Auth Service
-  - Catalog Service
-  - Cart Service
-  - Order Service
-  - Payment Service
-  - API Gateway
-- **Multi-Tenant Data Separation**: Postgres row-level tenancy
-- **Scalability**: Kafka for event-driven communication, Redis for caching
-- **Security**: JWT + role-based APIs + Keycloak integration
-- **Deployment**: Docker + Kubernetes + CI/CD pipeline
+## Screenshots
 
-## Technology Stack
-- **Backend**: Java 17, Spring Boot 3.x, Spring Cloud
-- **Database**: PostgreSQL, Redis
-- **Messaging**: Apache Kafka
-- **Authentication**: JWT, Keycloak
-- **API Documentation**: Swagger/OpenAPI
-- **Containerization**: Docker, Kubernetes
-- **CI/CD**: GitHub Actions
+![AI Digital Clock](screenshot.png)
+(Screenshot will be available after running the application)
 
-## Project Structure
-```
-multi-tenant-ecommerce/
-├── api-gateway/               # API Gateway Service
-├── auth-service/              # Authentication & Authorization Service
-├── catalog-service/           # Product Catalog Management Service
-├── cart-service/              # Shopping Cart Service
-├── order-service/             # Order Management Service
-├── payment-service/           # Payment Processing Service
-├── common/                    # Shared libraries and utilities
-├── config-server/             # Centralized Configuration Server
-├── service-registry/          # Service Discovery (Eureka)
-├── docker/                    # Docker configuration files
-└── k8s/                       # Kubernetes deployment files
-```
+## Requirements
 
-## Getting Started
-Instructions for setting up and running the project will be provided here.
+- Java Runtime Environment (JRE) 8 or higher
+- Java Development Kit (JDK) 8 or higher (for compilation)
 
-## Development Roadmap
-- [x] Project setup and architecture design
-- [ ] Core domain models and multi-tenant data separation
-- [ ] Authentication and authorization implementation
-- [ ] Catalog service development
-- [ ] Cart, order, and payment services
-- [ ] API gateway and service communication
-- [ ] Docker and Kubernetes configuration
-- [ ] CI/CD pipeline setup
+## How to Run
+
+### Method 1: Compile and Run from Command Line
+
+1. Open a terminal/command prompt
+2. Navigate to the project directory
+3. Compile the Java file:
+   ```
+   javac DigitalClock.java
+   ```
+4. Run the application:
+   ```
+   java DigitalClock
+   ```
+
+### Method 2: Run in an IDE
+
+1. Open the project in your favorite Java IDE (Eclipse, IntelliJ IDEA, NetBeans, etc.)
+2. Open the `DigitalClock.java` file
+3. Run the file using the IDE's run function
+
+## Customization
+
+You can customize the clock by modifying the following constants in the `DigitalClock.java` file:
+
+- `BG_COLOR`: Background color of the application
+- `TIME_COLOR`: Color of the time display
+- `DATE_COLOR`: Color of the date display
+- `AMPM_COLOR`: Color of the AM/PM indicator
+- `PANEL_COLOR`: Color of the main panel
 
 ## License
-[MIT License](LICENSE)
+
+This project is open source and available under the MIT License.
+
+## Author
+
+Created as a demonstration project.
