@@ -10,9 +10,9 @@ A stylish digital clock application built with Java Swing featuring a futuristic
 - Sleek AI-themed UI with custom colors and glow effects
 - Modern, clean interface with a futuristic feel
 
-## Screenshots
+## Main Screen Digital Clock
 
-![AI Digital Clock](screenshot.png)
+![AI Digital Clock](MainScreen.png)
 (Screenshot will be available after running the application)
 
 ## Requirements
@@ -51,10 +51,17 @@ You can customize the clock by modifying the following constants in the `Digital
 - `AMPM_COLOR`: Color of the AM/PM indicator
 - `PANEL_COLOR`: Color of the main panel
 
-## License
+##  License
 
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
+##  Author
 
-Created as a demonstration project.
+**Saurabh**
+-  Portfolio: [saurabhh.in](https://saurabhh.in)
+-  Email: Saurabh@wearl.co.in
+
+
+---
+
+⭐ **Star this repository if you find it helpful!** ⭐
